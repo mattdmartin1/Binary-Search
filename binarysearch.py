@@ -30,3 +30,5 @@ def binary_search(l, target, low=None, high=None):
         return binary_search(l ,target, low, midpoint-1)
     else:
         return binary_search(l, target, midpoint+1, high)
+    
+    # testing
